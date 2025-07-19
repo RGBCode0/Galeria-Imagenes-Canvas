@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Galería de Imagenes</title>
+  <link rel="stylesheet" href="styles.css">
+
+   
+</head>
+<body>
+  <header>
+    <h1>Galería de Dibujos</h1>
+    <p>Proyectos creados con JavaScript y HTML5 Canvas con animación</p>
+  </header>
+
+  <main class="galeria">
+    <section class="proyecto">
+      <h2>🚗 Dibujo de un Carro</h2>
+      <p>Dibujo hecho con `ctx.fillRect`, `ctx.arc` y formas básicas.</p>
+      <canvas id="carroCanvas" width="400" height="200"></canvas>
+    </section>
+  
+    <section class="proyecto">
+      <h2>🐦 Dibujo de un Ave</h2>
+      <p>Se creo el dibujo del ave usando lineas y curvas</p>
+      <canvas id="ave" width="400" height="200"></canvas>
+    </section>
+  
+    <section class="proyecto">
+      <h2>🚁 Helicóptero</h2>
+      <p>Dibujo de un helicóptero con formas básicas.</p>
+      <canvas id="helicoptero" width="400" height="200"></canvas>
+    </section>
+  
+    <section class="proyecto">
+      <h2>🏞️ Paisaje</h2>
+      <p>Montaña con estilo simple.</p>
+      <canvas id="paisaje" width="400" height="200"></canvas>
+    </section>
+  </main>
+  
+ 
+  <footer>
+    <p>Creado por Rael Gabriel Bautista © 2025</p>
+  </footer>
+   
+    <script src="scripts/carro.js" type="module"></script>
+    <script src="scripts/ave.js" type="module"></script>
+    <script src="scripts/helicoptero.js" type="module"></script>
+    <script src="scripts/paisaje.js" type="module"></script>
+</body>
+</html>
